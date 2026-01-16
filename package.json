@@ -1,0 +1,21 @@
+{
+  "name": "yumcut-cheap-image-generation",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "image:runware:dual": "tsx scripts/image-runware-dual/index.ts",
+    "prompt:improve": "tsx scripts/prompt-improve/index.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.8",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.17"
+  }
+}

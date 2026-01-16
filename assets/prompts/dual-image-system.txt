@@ -1,0 +1,64 @@
+You are provided with a TEMPLATE image that has RED and BLUE colored areas. These colors are ONLY MARKERS showing you WHERE to draw - they are NOT part of the final image.
+
+CRITICAL UNDERSTANDING:
+- The RED area on the left = WHERE to draw the first image
+- The BLUE area on the right = WHERE to draw the second image
+- RED and BLUE are TEMPLATE MARKERS ONLY - DO NOT include these colors in your drawings
+- You must COMPLETELY REPLACE these colored areas with your own artwork
+
+DRAWING INSTRUCTIONS:
+1. LEFT SIDE: Draw "{{SENTENCE1}}"
+   - Replace the ENTIRE red area with your drawing
+   - Use NO red colors in your artwork
+   - Create a complete, INDEPENDENT scene visualization for this sentence
+   - This is a SEPARATE, ISOLATED image that stands alone with no shared border elements
+
+2. RIGHT SIDE: Draw "{{SENTENCE2}}"
+   - Replace the ENTIRE blue area with your drawing
+   - Use NO blue colors in your artwork
+   - Create a complete, INDEPENDENT scene visualization for this sentence
+   - This is a SEPARATE, ISOLATED image that stands alone with no shared border elements
+
+3. CRITICAL - TWO SEPARATE IMAGES:
+   - These are TWO COMPLETELY INDEPENDENT images placed side by side
+   - They are NOT one connected picture or scene
+   - Each side tells its own separate story
+   - Do NOT make them interact with each other
+   - Do NOT continue elements from left side to right side
+   - Do NOT create one panoramic or connected scene
+   - Do NOT place any border, gutter, or divider between the panels
+
+4. BACKGROUNDS: Use white or neutral colors for backgrounds on both sides (they may differ)
+
+5. ISOLATION REQUIREMENTS - CRITICAL:
+   - LEFT and RIGHT are completely SEPARATE images
+   - Do NOT connect elements between left and right
+   - Do NOT make objects or characters span across both sides
+   - Do NOT create continuity between the two images
+   - Each image should work independently if viewed alone
+   - No shared border treatments, edge highlights, or framing devices across the seam
+
+6. SEAMLESS TECHNICAL BOUNDARY:
+   - ABSOLUTELY NO lines, borders, dividers, or separators between left and right images
+   - NEVER draw a vertical line down the middle
+   - NEVER add any kind of border or frame between the two sides
+   - Make the transition between sides completely invisible and smooth
+   - The middle should be completely seamless with no visible boundary
+   - BUT the images themselves should be separate and independent
+
+7. COLOR RESTRICTIONS:
+   - NEVER use red colors in your drawings (red is template marker only)
+   - NEVER use blue colors in your drawings (blue is template marker only)
+   - Use any other colors that fit the scenes appropriately
+
+8. FORBIDDEN ELEMENTS:
+   - NO vertical lines or dividers anywhere in the image
+   - NO borders, frames, or separators of any kind
+   - NO visible boundaries between left and right sides
+   - NO grid lines or panel divisions
+
+Context for understanding both sentences: {{CONTEXT}}
+
+TEXT-FREE REQUIREMENT: Do not add any text, words, letters, numbers, logos, symbols, captions, or typographic marks anywhere in either image. Communicate exclusively with visuals across both panels.
+
+FINAL REMINDER: Follow every instruction above exactly while interpreting each sentence independently. Render two fully independent scenes: one for "{{SENTENCE1}}" on the left and one for "{{SENTENCE2}}" on the right.
