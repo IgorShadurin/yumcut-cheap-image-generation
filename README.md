@@ -1,11 +1,17 @@
-# yumcut-cheap-image-generation
+# YumCut Cheap Image Generator.
+
+[YumCut](https://yumcut.com) is an AI-powered short video generation service available on the web and via the iOS mobile app.  
+This tool is part of [YumCut](https://yumcut.com) and is used to speed up low-level image generation tasks inside the larger pipeline.
+
+Includes optional OpenRouter prompt improvement to make prompts more detailed before rendering.
+If you want to generate an image easily from the web, use [yumcut.com](https://yumcut.com).
+
+---
 
 Generate **two images in one Runware call** by rendering a single dual-panel image and splitting it into left/right halves. This makes image generation **~2x cheaper** (two outputs for roughly the cost of one request) when the split layout is acceptable.
 
 This script sends a single Runware request that includes a **template image** (red/blue split marker) to guide the left/right layout, then splits the response into two files.
 Prompts are capped at 1900 characters to satisfy Runware limits.
-
-Includes optional OpenRouter prompt improvement to make prompts more detailed before rendering.
 
 ## Setup
 
