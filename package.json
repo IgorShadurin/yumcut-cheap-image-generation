@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "image:runware:dual": "tsx scripts/image-runware-dual/index.ts",
+    "image:runware:single": "tsx scripts/image-runware-single/index.ts",
     "prompt:improve": "tsx scripts/prompt-improve/index.ts",
     "test": "vitest run"
   },

@@ -32,6 +32,7 @@ Required env vars:
 ## Scripts
 
 - `npm run image:runware:dual` - generate a 2-up image and split into two images
+- `npm run image:runware:single` - prompt enhancement (OpenRouter) -> Runware single image
 - `npm run prompt:improve` - improve a prompt via OpenRouter
 
 You can also run directly with `tsx`.
@@ -63,7 +64,36 @@ npm run image:runware:dual -- \
   --out-dir=./output/custom-template
 ```
 
-### 2) Dual image generation with prompt improvement
+### 2) Single image generation with prompt improvement (OpenRouter -> Runware)
+
+This pipeline improves your prompt via OpenRouter, saves the improved text, then renders one image via Runware.
+It also saves intermediate files so you can verify the exact prompt and request payload used.
+
+```bash
+npm run image:runware:single -- \
+  --prompt="Spider-Man swinging between skyscrapers at sunset" \
+  --size=1024x1024 \
+  --out-dir=./output/single-demo
+```
+
+Saved files in the output folder:
+- `prompt.txt`
+- `prompt-improved.txt` (if improvement is enabled)
+- `runware-request.json`
+- `runware-response.json`
+- `image.jpg`
+
+If you provide a reference image, the tool will use Qwen Image Edit (`runware:108@20`):
+
+```bash
+npm run image:runware:single -- \
+  --prompt="A cinematic portrait with soft rim light" \
+  --reference-image=./input/character.png \
+  --size=1024x1024 \
+  --out-dir=./output/single-edit
+```
+
+### 3) Dual image generation with prompt improvement
 
 ```bash
 npm run image:runware:dual -- \
@@ -73,7 +103,7 @@ npm run image:runware:dual -- \
   --out-dir=./output/improved
 ```
 
-### 3) Prompt improvement only
+### 4) Prompt improvement only
 
 ```bash
 npm run prompt:improve -- \
