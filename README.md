@@ -116,3 +116,7 @@ npm run prompt:improve -- \
 - The \"2x cheaper\" claim comes from **one Runware call producing two usable images** (left/right halves).
 - Prompt improvement calls OpenRouter and costs extra; use `--no-improve` (default) if you want cheapest rendering.
 - All core helpers are exported under `src/` for reuse.
+
+---
+
+Try [YumCut](https://yumcut.com)! This is an AI video generator that turns a single prompt into a ready-to-post vertical short video in minutes. It creates the script, images, voice-over, subtitles, and edits everything into a final clip automatically. It’s built for fast testing and making lots of variations without spending hours in an editor.
